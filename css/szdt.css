@@ -1,0 +1,268 @@
+h1 {
+	font-family:Simhei, Microsoft yahei;
+	font-size:24px;
+	line-height:30px;
+	height:30px;
+	padding:20px 10px;
+
+}
+
+h2 {
+	font-family:Simhei, Microsoft yahei;
+	font-size:18px;
+	line-height:30px;
+	height:30px;
+	padding:10px;
+	color:#fc4349
+}
+
+.op-subway-bord {
+	height:250px;
+	font-size:13px;
+	line-height:1.54;
+	word-wrap:break-word
+}
+.op-subway-main {
+	height:123px;
+	padding:0 10px;
+	position:relative
+}
+.op-subway-box {
+	height:25px;
+	margin-top:12px;
+	margin-left:39px;
+	width:465px
+}
+.op-subway-line {
+	cursor:pointer;
+	list-style:none;
+	width:180px;
+	height:24px;
+	color:#aaa;
+	line-height:24px;
+	border:1px solid #bdbdbd;
+	float:left;
+	position:relative;
+	z-index:9;
+	border-top:1px solid #999;
+	border-left:1px solid #999
+}
+.op-subway-line em {
+	font-style:normal;
+	font-size:13px;
+	color:#333;
+	padding-left:7px
+}
+.op-subway-line em span {
+	display:block;
+	position:absolute;
+	width:7px;
+	height:7px;
+	left:5px;
+	top:8px
+}
+.op-subway-hierarchy {
+	z-index:100
+}
+.op-subway-ul {
+	background:#fff;
+	z-index:999;
+	height:180px;
+	display:none;
+	position:absolute;
+	border:1px solid #bbb;
+	top:24px;
+	width:175px;
+	left:-1px;
+	overflow-y:scroll;
+	overflow-x:hidden
+}
+.op-subway-ul li {
+	overflow:hidden;
+	cursor:pointer;
+	background:#fff;
+	width:143px;
+	height:31px;
+	list-style:none;
+	line-height:31px;
+	color:#333;
+	padding-left:20px;
+	position:relative;
+	font-size:13px
+}
+.op-subway-ul li span {
+	display:block;
+	position:absolute;
+	width:9px;
+	height:9px;
+	left:8px;
+	top:11px
+}
+.op-subway-jg {
+	width:20px;
+	float:left;
+	text-align:center;
+	height:24px;
+	line-height:24px;
+	font-weight:700;
+	color:#ccc
+}
+.op-subway-station {
+	cursor:pointer;
+	width:180px;
+	height:24px;
+	line-height:24px;
+	color:#aaa;
+	border:1px solid #bdbdbd;
+	float:left;
+	position:relative;
+	background:#f7f7f7;
+	border-top:1px solid #999;
+	border-left:1px solid #999
+}
+.op-subway-k {
+	width:25px;
+	height:24px;
+	top:0;
+	position:absolute;
+	right:0;
+	border-left:1px solid #d9d9d9;
+	background:url(http://imgbdb2.bendibao.com/images/icons.jpg) center center no-repeat
+}
+.op-subway-station em {
+	font-style:normal;
+	font-size:13px;
+	padding:0 5px
+}
+.op-subway-ulk {
+	z-index:999;
+	display:none;
+	width:300px;
+	height:auto;
+	position:absolute;
+	top:24px;
+	left:-1px;
+	border:1px solid #bbb;
+	background:#fff
+}
+.op-subway-ulk li {
+	cursor:pointer;
+	background:#fff;
+	list-style:none;
+	width:85px;
+	height:30px;
+	float:left;
+	line-height:30px;
+	padding-left:12px;
+	color:#333;
+	font-size:13px
+}
+.op-subway-box-end {
+	clear:both
+}
+.op-subway-calc-false {
+	border-radius:100px;
+	position:absolute;
+	left:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#b8b8b8;
+	background:#f5f5f5;
+	border:1px solid #d9d9d9;
+	width:82px;
+	height:26px;
+	margin-top:12px;
+	margin-left:39px;
+	text-align:center;
+	line-height:26px;
+	font-size:13px
+}
+.op-subway-calc-fare {
+	border-radius:100px;
+	border:0;
+	position:absolute;
+	left:3px;
+	cursor:pointer;
+	width:82px;
+	height:26px;
+	background:#fc4349;
+	margin-top:12px;
+	margin-left:46px;
+	text-align:center;
+	line-height:26px;
+	color:#fff;
+	font-size:13px
+}
+.op-subway-ts {
+	font-size:13px;
+	position:absolute;
+	left:150px;
+	bottom:23px;
+	display:none
+}
+.op-subway-tab {
+	margin-top:54px;
+	border-bottom:1px solid #e5e5e5;
+	margin-bottom:20px
+}
+.op-subway-footer {
+	overflow:hidden;
+	height:auto;
+	width:100%;
+	clear:both
+}
+.op-subway-content {
+	height:auto;
+	clear:both
+}
+.op-subway-text {
+	margin:0 auto;
+	clear:both;
+	padding:10px 39px
+}
+.op-subway-title {
+	line-height:16px;
+	font-size:13px;
+	color:#666
+}
+.op-subway-span {
+	font-size: 20px;
+	color: #333;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 25px;
+	font-family: "Microsoft YaHei"
+}
+.op-subway-increase {
+	color:#fc4349;
+	font:inherit;
+	font-weight:700
+}
+
+.op-subway-fareinfo{
+	
+	height:70px;
+	
+}
+
+.op-subway-one {
+	background:#ce0000
+}
+.op-subway-two {
+	background:#0063cf
+}
+.op-subway-four {
+	background:#00cccd
+}
+.op-subway-five {
+	background:#9b0067
+}
+.op-subway-six {
+	background:#ec9a00
+}
+.op-subway-seven {
+	background:#006731
+}
+.op-subway-clearfix {
+	clear:both
+}
